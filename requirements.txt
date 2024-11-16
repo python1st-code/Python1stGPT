@@ -1,0 +1,4 @@
+fake-useragent
+urllib.parse
+asyncio
+aiohttp
