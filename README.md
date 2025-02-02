@@ -30,6 +30,8 @@ async def main() -> None:
 
     print(answer) # Получаем ответ
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
+
 ```
 
