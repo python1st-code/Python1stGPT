@@ -3,8 +3,6 @@
   <p align="center"><b>Бесплатная обёртка для ИИ моделей</b></p>
 </p>
 
-<p align="center"><strong>Разработано и написано <a href="https://github.com/python1st-code">@python1st</a></strong></p>
-
 <div id="top"></div>
 
 > [!IMPORTANT]
