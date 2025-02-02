@@ -19,13 +19,12 @@ git clone https://github.com/python1st-code/Python1stGPT.git
 ```python
 from Python1stGPT import Python1stGPT
 
-gpt = Python1stGPT('gpt-4o-mini') # Создаем класс
-print(gpt.models) # Список доступных моделей ИИ
+gpt = Python1stGPT(Model.GPT4O_MINI) # Создаем инстанс
 
-answer = await gpt.chat("Сообщение к ИИ", [
-        {"role": "user",
-        "content": "Сообщение к ИИ в памяти"}
-    ]
+answer = await gpt.chat("Сообщение к ИИ", [{
+            "role": "user",
+            "content": "Сообщение к ИИ в памяти"
+    }]
 ) # Генерируем ответ на наше сообщение
 
 print(answer) # Получаем ответ
