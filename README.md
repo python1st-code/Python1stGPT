@@ -17,7 +17,7 @@ git clone https://github.com/python1st-code/Python1stGPT.git
 ```python
 import asyncio
 
-from Python1stGPT import Python1stGPT
+from Python1stGPT import Python1stGPT, Model
 
 gpt = Python1stGPT(Model.GPT4O_MINI) # Создаем инстанс
 
